@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TeamHost - Join now and play mighty games!</title>
+    <meta content="Templines" name="author">
+    <meta content="TeamHost" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/libs.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="page-profile">
+
+    <!-- Loader-->
+    <div id="page-preloader"><span class="spinner border-t_second_b border-t_prim_a"></span></div>
+    <!-- Loader end-->
+
+
+    <div class="page-wrapper">
+        <header class="page-header">
+            <div class="page-header__inner">
+                <div class="page-header__sidebar">
+                    <div class="page-header__menu-btn"><button class="menu-btn ico_menu is-active"></button></div>
+                    <div class="page-header__logo"><img src="assets/img/logo.png" alt="logo"><span class="page-header__logo_text">TEAMHOST</span></div>
+                </div>
+                <div class="page-header__content">
+                    <div class="page-header__search">
+                        <div class="search">
+                            <div class="search__input"><i class="ico_search"></i><input type="search" name="search" placeholder="Search"></div>
+                            <div class="search__btn"><button type="button"><i class="ico_microphone"></i></button></div>
+                        </div>
+                    </div>
+                    <div class="page-header__action"><a class="action-btn" href="#!"><i class="ico_message"></i><span></span></a><a class="action-btn" href="#!"><i class="ico_notification"></i><span></span></a><a class="profile" href="#!"><img src="assets/img/profile.png" alt="profile"></a></div>
+                </div>
+            </div>
+        </header>
+        <div class="page-content">
+            <aside class="sidebar is-show" id="sidebar">
+                <div class="sidebar-box">
+                    <ul class="uk-nav">
+                        <li><a href="03_home.html"><i class="ico_home"></i><span>Home</span></a></li>
+                        <li class="uk-nav-header">Account</li>
+                        <li class="uk-active"><a href="04_profile.html"><i class="ico_profile"></i><span>Profile</span></a></li>
+                        <li><a href="05_favourites.html"><i class="ico_favourites"></i><span>Favourites</span><span class="count">15</span></a></li>
+                        <li><a href="06_chats.html"><i class="ico_chats"></i><span>Chats</span></a></li>
+                        <li><a href="07_friends.html"><i class="ico_friends"></i><span>Friends</span></a></li>
+                        <li><a href="08_wallet.html"><i class="ico_wallet"></i><span>Wallet</span></a></li>
+                        <li class="uk-nav-header">Main</li>
+                        <li><a href="09_games-store.html"><i class="ico_store"></i><span>Store</span></a></li>
+                        <li><a href="11_market.html"><i class="ico_market"></i><span>Market</span></a></li>
+                        <li><a href="12_streams.html"><i class="ico_streams"></i><span>Streams</span></a></li>
+                        <li><a href="13_community.html"><i class="ico_community"></i><span>Community</span></a></li>
+                        <li class="uk-nav-header">Support</li>
+                        <li><a href="#modal-report" data-uk-toggle><i class="ico_report"></i><span>Report</span></a></li>
+                        <li><a href="#modal-help" data-uk-toggle><i class="ico_help"></i><span>Help</span></a></li>
+                    </ul>
+                </div>
+            </aside>
+            <main class="page-main">
+                <div class="uk-grid" data-uk-grid>
+                    <div class="uk-width-2-3@l">
+                        <div class="widjet --profile">
+                            <div class="widjet__head">
+                                <h3 class="uk-text-lead">Profile</h3>
+                            </div>
+                            <div class="widjet__body">
+                                <div class="user-info">
+                                    <div class="user-info__avatar"><img src="assets/img/profile.png" alt="profile"></div>
+                                    <div class="user-info__box">
+                                        <div class="user-info__title">John Doe</div>
+                                        <div class="user-info__text">Egypt, Member since May 2022</div>
+                                    </div>
+                                </div><a class="uk-button uk-button-danger" href="#!"><i class="ico_edit"></i><span class="uk-margin-small-left">Edit Profile</span></a>
+                            </div>
+                        </div>
+                        <div class="widjet --bio">
+                            <div class="widjet__head">
+                                <h3 class="uk-text-lead">Bio</h3>
+                            </div>
+                            <div class="widjet__body"><span>Here you can put your biography you need try to make it attractive and professional, just be honest and polite.</span></div>
+                        </div>
+                        <div class="widjet --activity">
+                            <div class="widjet__head">
+                                <h3 class="uk-text-lead">Recent Activity</h3><a href="#!">View All</a>
+                            </div>
+                            <div class="widjet__body">
+                                <div class="widjet-game">
+                                    <div class="widjet-game__media"><a href="10_game-profile.html"><img src="assets/img/activity-1.jpg" alt="image"></a></div>
+                                    <div class="widjet-game__info"><a class="widjet-game__title" href="10_game-profile.html"> Grand Theft Auto V</a>
+                                        <div class="widjet-game__record">3 hours on record</div>
+                                        <div class="widjet-game__last-played">last played on 18 Feb, 2021</div>
+                                    </div>
+                                </div>
+                                <div class="widjet-game-info">
+                                    <div class="widjet-game-info__title">Achievement Progress</div>
+                                    <div class="widjet-game-info__progress"><span>50 of 150</span>
+                                        <div class="progress-box">
+                                            <div class="progress-line" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="widjet-game-info__acheivement">
+                                        <ul>
+                                            <li><img src="assets/img/acheivement-1.png" alt="acheivement"></li>
+                                            <li><img src="assets/img/acheivement-2.png" alt="acheivement"></li>
+                                            <li><img src="assets/img/acheivement-3.png" alt="acheivement"></li>
+                                            <li><img src="assets/img/acheivement-4.png" alt="acheivement"></li>
+                                            <li><img src="assets/img/acheivement-5.png" alt="acheivement"></li>
+                                            <li><span>+10</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widjet__body">
+                                <div class="widjet-game">
+                                    <div class="widjet-game__media"><a href="10_game-profile.html"><img src="assets/img/activity-2.jpg" alt="image"></a></div>
+                                    <div class="widjet-game__info"><a class="widjet-game__title" href="10_game-profile.html"> Counter-Strike: Global Offensive</a>
+                                        <div class="widjet-game__record">0.2 hours on record</div>
+                                        <div class="widjet-game__last-played">last played on 25 Apr, 2021</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-3@l">
+                        <div class="widjet --upload">
+                            <div class="widjet__head">
+                                <h3 class="uk-text-lead">Upload Item</h3>
+                            </div>
+                            <div class="widjet__body"><select class="js-select uk-flex-1">
+                                    <option value="">Select a Category</option>
+                                    <option value="Category 1">Category 1</option>
+                                    <option value="Category 2">Category 2</option>
+                                    <option value="Category 3">Category 3</option>
+                                </select><button class="uk-button uk-button-secondary" type="button">Next</button></div>
+                        </div>
+                        <div class="widjet --badges">
+                            <div class="widjet__head">
+                                <h3 class="uk-text-lead">Badges</h3><a href="#!">View All</a>
+                            </div>
+                            <div class="widjet__body">
+                                <ul class="badges-list">
+                                    <li><img src="assets/img/badge-1.png" alt="badge"></li>
+                                    <li><img src="assets/img/badge-2.png" alt="badge"></li>
+                                    <li><img src="assets/img/badge-3.png" alt="badge"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widjet --games">
+                            <div class="widjet__head">
+                                <h3 class="uk-text-lead">Games</h3><a href="#!">View All</a>
+                            </div>
+                            <div class="widjet__body">
+                                <ul class="games-list">
+                                    <li><img src="assets/img/game-1.png" alt="game"></li>
+                                    <li><img src="assets/img/game-2.png" alt="game"></li>
+                                    <li><img src="assets/img/game-3.png" alt="game"></li>
+                                    <li><img src="assets/img/game-4.png" alt="game"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="page-modals">
+        <div class="uk-flex-top" id="modal-report" data-uk-modal>
+            <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical"><button class="uk-modal-close-default" type="button" data-uk-close></button>
+                <h2 class="uk-modal-title">Report</h2>
+                <form class="uk-form-stacked" action="#">
+                    <div class="uk-margin">
+                        <div class="uk-form-label">Subject</div>
+                        <div class="uk-form-controls"><select class="js-select">
+                                <option value="">Choose Subject</option>
+                                <option value="Subject 1">Subject 1</option>
+                                <option value="Subject 2">Subject 2</option>
+                                <option value="Subject 3">Subject 3</option>
+                            </select></div>
+                    </div>
+                    <div class="uk-margin">
+                        <div class="uk-form-label">Details</div>
+                        <div class="uk-form-controls"><textarea class="uk-textarea" name="details" placeholder="Try to include all details..."></textarea></div>
+                        <div class="uk-form-controls uk-margin-small-top">
+                            <div data-uk-form-custom><input type="file"><button class="uk-button uk-button-default" type="button" tabindex="-1"><i class="ico_attach-circle"></i><span>Attach File</span></button></div>
+                        </div>
+                    </div>
+                    <div class="uk-margin">
+                        <div class="uk-grid uk-flex-right" data-uk-grid>
+                            <div><button class="uk-button uk-button-small uk-button-link">Cancel</button></div>
+                            <div><button class="uk-button uk-button-small uk-button-danger">Submit</button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="uk-flex-top" id="modal-help" data-uk-modal>
+            <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical"><button class="uk-modal-close-default" type="button" data-uk-close></button>
+                <h2 class="uk-modal-title">Help</h2>
+                <div class="search">
+                    <div class="search__input"><i class="ico_search"></i><input type="search" name="search" placeholder="Search"></div>
+                    <div class="search__btn"><button type="button"><i class="ico_microphone"></i></button></div>
+                </div>
+                <div class="uk-margin-small-left uk-margin-small-bottom uk-margin-medium-top">
+                    <h4>Popular Q&A</h4>
+                    <ul>
+                        <li><img src="assets/img/svgico/clipboard-text.svg" alt="icon"><span>How to Upload Your Developed Game</span></li>
+                        <li><img src="assets/img/svgico/clipboard-text.svg" alt="icon"><span>How to Go Live Stream</span></li>
+                        <li><img src="assets/img/svgico/clipboard-text.svg" alt="icon"><span>Get in touch with the Creator Support Team</span></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#!">browse all articles</a></li>
+                        <li><a href="#!">Send Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/libs.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
